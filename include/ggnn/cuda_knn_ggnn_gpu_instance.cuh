@@ -277,7 +277,7 @@ struct GGNNGPUInstance {
 
   // graph utilities
 
-  int getNs(const int layer) const { return Ns[layer]; }
+  int getNs(const int layer) const { return Ns[layer]; }   //获得每一层的base data个数
 
   int getS(const int layer) const { return layer ? S : S0; }
 
