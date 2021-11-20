@@ -99,7 +99,7 @@ struct TopMergeKernel {
   int N_offset;
   int N;
 
-  int S;
+  int S;    //segment size
   int S_offset;
 
   int layer;

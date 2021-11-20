@@ -562,7 +562,7 @@ struct GGNNGPUInstance {
 
     top_kernel.layer = layer;
 
-    top_kernel.N = getNs(layer);
+    top_kernel.N = getNs(layer);    //获取该层的点数
     top_kernel.N_offset = 0;
 
     top_kernel.S = getS(layer);
